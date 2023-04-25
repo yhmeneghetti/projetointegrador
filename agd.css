@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:linear-gradient(234deg, blue 1%, white);
+}
+
+h1{
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+    color: beige;
+}
+
+h2{
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.centro{
+    text-align: center;
+}
+
+.imagem {
+    margin:0 auto; 
+    width:200px;
+}
+
+button{
+    border:1px solid; 
+    padding: 11px 21px; 
+    vertical-align: middle; 
+    background:rgb(241, 241, 68); 
+    color:white;border-radius:6px; 
+    font-size: 20px; 
+    font-family:helvetica, serif;text-decoration:none;
+
+}
+
+div > div {
+    display:inline-block;
+}
