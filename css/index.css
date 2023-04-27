@@ -1,3 +1,54 @@
+nav{
+    position: fixed;
+    top: 0;
+    display: block;
+}
+img{
+    margin: 5px;
+}
+.navStruc{
+    display: block;
+    position: absolute;
+    top: 0px;
+    height: 60px;
+    width: 100vw;
+    background-color: #f0f8ff; 
+}
+.navButton{
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 20vw;
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.navButton:hover{ background-color: rgb(235, 243, 255); }
+
+.navAncor{ text-decoration: none; color: rgb(51, 87, 204); }
+.navAncor::after .navAncor:active{ text-decoration: none; color: rgb(51, 87, 204);}
+
+a { text-decoration:none; color: rgb(51, 87, 204); text-transform: uppercase;}
+a::after a:active { text-decoration:none; color: rgb(51, 87, 204); text-transform: uppercase;}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #f0f8ff;
+    color: rgb(51, 87, 204);
+    min-width: 99vw;
+    min-height: 5vh;
+}
+.fPageTitle { 
+    height:5vh; 
+    vertical-align: text-bottom; 
+    display: inline-flex; 
+    float: inline-start;
+}
+.fPageMap{ display: inline-flex; float: right; margin-right: 15px; }
+
+li{ list-style: none;}
 
 .lei-acessibilidade{
     background-color:rgba(255, 255, 255, 0.9);

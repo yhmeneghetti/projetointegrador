@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-        <header> 
-            <nav>
-            <img class ="verde" src = "logo.png" width="150" height="50">
-                <ul> 
-                    <li><a href="Home">Home</a></li> 
-                    <li><a href="Sobre">Sobre</a></li>
-                    <li><a href="Login">Login</a></li>
-                    <li><a href="Contato">Contato</a></li>       
-                </ul> 
-            </nav>
-        </header>
+    <header> 
+        <nav>
+            <div class="navStruc">
+                <div><img class ="verde" src = "logo.png" width="150" height="50"></div>
+                <div style="left: calc(160px);" class="navButton"><a class="navAncor" href="index.html">Home</a></div>
+                <div style="left: calc(160px + 20vw);" class="navButton"><a class="navAncor" href="#">Sobre</a></div>
+                <div style="left: calc(160px + 40vw);" class="navButton"><a class="navAncor" href="login.html">Login</a></div>
+                <div style="left: calc(160px + 60vw);" class="navButton"><a class="navAncor" href="#">Contato</a></div>
+            </div>
+        </nav>
+    </header>
     <div class="lei-acessibilidade">
         <h1>
             LEI Nº 10.098, DE 19 DE DEZEMBRO DE 2000
@@ -30,5 +30,16 @@
             reforma de edifícios e nos meios de transporte e de comunicação.
         </p>
     </div>
+    <footer>
+        <div class="fPageTitle">
+          <h4>Projeto Integrador</h4>
+        </div>
+        <div class="fPageMap"><ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul></div>
+      </footer>
 </body>
 </html>
