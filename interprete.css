@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
-h1{
-    color:white;
-    font-family: 'Source Serif Pro', serif;
-}
+
+.centralizar{
+  margin:0 auto;
+} 
 
 h2{
     color:rgb(56, 115, 224);
@@ -30,5 +30,51 @@ div{
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image:linear-gradient(234deg, blue 1%, white);
+    background-image: white;
 }
+.sublinhado{
+    text-decoration: none;
+}
+body{
+    background: white;
+    padding-top: 10px;
+  } 
+  
+  h1{
+    color:white; 
+    font-family: 'Source Serif Pro', serif;
+    font-size: 30px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 4s steps(60, end); 
+  }
+  
+  h1:nth-child(2){
+    animation: type2 8s steps(60, end);
+  }
+  
+  span{
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+  
+  .corfundo{
+    background-color:rgb(91, 155, 250) ;
+    width: 30em;
+    border-radius: 10px;
+  }
